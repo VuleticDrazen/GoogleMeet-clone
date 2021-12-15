@@ -188,13 +188,13 @@ var AppProcess = (function() {
         }
     }
     var iceConfiguration = {
-        iceServers: [{   urls: ["stun:relay.backups.cz"] },
+        iceServers: [{   urls: ["stun:fr-turn1.xirsys.com"] },
             {  
-                username: "webrtc",
+                username: "741IcWM8BnDlHhd9ftrAXX30Elfnb7zbAzXnbHuHzLxwhsoeLyHlSj8DsQ3zutEsAAAAAGGmGIdycmFkZQ==",
                   
-                credential: "webrtc",
+                credential: "c978cdb4-51d8-11ec-a81b-0242ac120004",
                   
-                urls: [      "turn:relay.backups.cz?transport=tcp",       "turn:relay.backups.cz"]
+                urls: [      "turn:fr-turn1.xirsys.com:80?transport=udp",       "turn:fr-turn1.xirsys.com:3478?transport=udp",       "turn:fr-turn1.xirsys.com:80?transport=tcp",       "turn:fr-turn1.xirsys.com:3478?transport=tcp",       "turns:fr-turn1.xirsys.com:443?transport=tcp",       "turns:fr-turn1.xirsys.com:5349?transport=tcp"  ]
             }
         ]
     };
